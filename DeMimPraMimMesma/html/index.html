@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/base.css">
+
+    <title>🍉Rivania Gomes</title>
+</head>
+
+<!--  <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+
+        .w3-black,
+        .w3-hover-black:hover {
+            color: #fff !important;
+            background-color: #000 !important;
+        }
+
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {
+            margin-left: 120px
+        }
+
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+    </style> -->
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="/img/riv.jpg" alt="Foto pequena de Rivania" style="width:100%" class="w3-grayscale-max imagem">
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#progress" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-area-chart w3-xxlarge"></i>
+            <p>PROGRESS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#progress" class="w3-bar-item w3-button" style="width:25% !important">PROGRESS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">Rivania Gomes</span>.</h1>
+            <p>Residente Tic Serratec.</p>
+            <img src="/img/riva.jpg" alt="Foto de Rivania" class="w3-image w3-grayscale-max" width="492" height="708">
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">Minha missão</h2>
+            <hr style="width:230px" class="w3-opacity bg-white">
+            <p>Busco crescer profissionalmente e em todos os sentidos, para assim alcançar a independência financeira e
+                proporcionar uma vida mais feliz aos que me importam. Minha missão é entender os porquês, para uma
+                tomada
+                de decisão ágil, justa e íntegra, e repassar esse conhecimento ás pessoas ao meu redor.
+            </p>
+            <!-- <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+                <p class="w3-wide">Photography</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+                </div>
+                <p class="w3-wide">Web Design</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+                </div>
+                <p class="w3-wide">Photoshop</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+                </div><br> -->
+
+
+
+            <!--    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                    <i class="fa fa-download"></i> Download Resume
+                </button> -->
+
+            <!-- Grid for pricing tables -->
+            <!-- <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3> -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half w3-margin-bottom">
+                    <ul class="w3-ul w3-hoverable w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Forças</li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo1')"
+                                class="w3-button w3-left-align">Justiça</button>
+                            <div id="Demo1" class="w3-hide w3-container w3-justify">
+                                <p>Não permito que sentimentos pessoais tendenciem decisões sobre os outros.</p>
+                            </div>
+                        </li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo2')"
+                                class="w3-button w3-left-align ">Integridade</button>
+                            <div id="Demo2" class="w3-hide w3-container w3-justify">
+                                <p>Sou uma pessoa honesta, tenho os pés no chão e não sou pretenciosa, sou realista.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo3')"
+                                class="w3-button w3-left-align">Critério</button>
+                            <div id="Demo3" class="w3-hide w3-container w3-justify">
+                                <p>Não precipto conclusões, é importante pensar sobre as coisas e examiná-las de
+                                    todos os lados, me baseio apenas em evidências sólidas para tomar decisões. Sou
+                                    capaz de mudar de ideia.</p>
+                            </div>
+                        </li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo4')"
+                                class="w3-button w3-left-align">Inteligência Social</button>
+                            <div id="Demo4" class="w3-hide w3-container w3-justify">
+                                <p>Sou consciente dos motivos e sentimentos das outras pessoas. Sei o que fazer para
+                                    me adequar a diverentes ambientes e para deixar as pessoas á vontade.</p>
+                            </div>
+                        </li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo5')"
+                                class="w3-button w3-left-align">Amor ao Aprendizado</button>
+                            <div id="Demo5" class="w3-hide w3-container w3-justify">
+                                <p>Adoro aprender coisas novas, tanto em aula quanto por conta própria, sempre gostei da
+                                    escola, de ler, de qualquer lugar que haja oportunidade de aprendizado.</p>
+                            </div>
+                        </li>
+
+                        <!--    <li class="w3-padding-16">
+                                <h2>$ 10</h2>
+                                <span class="w3-opacity">per month</span>
+                            </li> -->
+                        <!-- <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+                            </li> -->
+                    </ul>
+                </div>
+
+                <div class="w3-half">
+                    <ul class="w3-ul w3-hoverable w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Fraquezas</li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo6')"
+                                class="w3-button w3-left-align w3-dropdown-click">Timidez</button>
+                            <div id="Demo6" class="w3-hide w3-container w3-justify">
+                                <p>Não procuro os holofotes, preferindo que minhas realizações falem por elas
+                                    mesmas.</p>
+                            </div>
+                        </li>
+
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo7')"
+                                class="w3-button w3-left-align">Prudência</button>
+                            <div id="Demo7" class="w3-hide w3-container w3-justify">
+                                <p>Sou cuidadosa e minhas escolhas são consistentemente prudentes.</p>
+                            </div>
+                        </li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo8')"
+                                class="w3-button w3-left-align">Persistência</button>
+                            <div id="Demo8" class="w3-hide w3-container w3-justify">
+                                <p>Não recuo diante de uma ameaça, desafio, dificuldade ou dor. Defendo o que é
+                                    certo mesmo que haja oposição. Sempre vou agir de acordo com minhas convicções.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo9')"
+                                class="w3-button w3-left-align">Liderança</button>
+                            <div id="Demo9" class="w3-hide w3-container w3-justify">
+                                <p>Apesar de encorajar um grupo a realizar coisas e preservar a harmonia entre o
+                                    grupo fazendo com que todos se sintam incluídos, tenho dificuldade quando
+                                    sobressaio em tarefas de liderança.</p>
+                            </div>
+                        </li>
+
+                        <li class="w3-padding-1"><button onclick="mostrarOculto('Demo10')"
+                                class="w3-button w3-left-align">Humor</button>
+                            <div id="Demo10" class="w3-hide w3-container w3-justify">
+                                <p>Gosto de rir e provocar sorrisos nas outras pessoas, tento ver o lado bom de
+                                    todas as coisas.</p>
+                            </div>
+                        </li>
+
+                        <!--  <li class="w3-padding-16">
+                                <h2>$ 25</h2>
+                                <span class="w3-opacity">per month</span>
+                            </li> -->
+                        <!--   <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+                            </li> -->
+                    </ul>
+                </div>
+                <!-- End Grid/Pricing tables -->
+            </div>
+
+        </div>
+
+        <!-- Portfolio Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-34" id="progress">
+            <h2 class="w3-text-light-grey">Progresso</h2>
+            <!-- <hr style="width:200px" class="w3-opacity"> -->
+            <!-- INCLUI -->
+            <hr style="width:230px " class="w3-opacity bg-white">
+            <p>Para me manter em constante progresso tenho me dedicado principalmente ao serratec, e paralelamente
+                realizado cursos que abrangem tanto a parte técnica quanto a pessoal, além de acrescentar literaturas
+                que me elevam em todas as áreas. Busco auxilio na terapia para melhor entender as situações que estou
+                inserida e gerenciar seus impactos. Tenho procurado me inserir mais nas trocas durante as aulas, e
+                exaltar minhas pequenas vitórias. Quando tenho uma forte intuição sobre algo, busco aconselhamento para
+                validar se realmente está correto. Aprendi a parar quando me deparo com uma situação que não consigo
+                transpor, tomo um tempo para realxar e volto com outros pontos de vista e com a mente mais tranquila.
+                Estou estudando constantemente para quando me deparar em situações de liderança tenha as decisões. E
+                estou aprendendo a utilizar meu humor atrelado a inteligência social para que possa manter o ambiente em
+                equilibro.
+            </p>
+
+            <!-- Grid for photos -->
+            <!-- <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                        <img src="/w3images/wedding.jpg" style="width:100%">
+                        <img src="/w3images/rocks.jpg" style="width:100%">
+                        <img src="/w3images/sailboat.jpg" style="width:100%">
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="/w3images/underwater.jpg" style="width:100%">
+                        <img src="/w3images/chef.jpg" style="width:100%">
+                        <img src="/w3images/wedding.jpg" style="width:100%">
+                        <img src="/w3images/p6.jpg" style="width:100%">
+                    </div> -->
+            <!-- End photo grid
+            </div> -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="valores">
+                <h2 class="w3-text-light-grey">Valores</h2>
+                <!-- <hr style="width:200px" class="w3-opacity"> -->
+                <!-- INCLUI -->
+                <hr style="width:230px " class="w3-opacity bg-white">
+                <ul>
+                    <li>
+                        Lealdade;
+                    </li>
+                    <li>
+                        Responsabilidade;
+                    </li>
+                    <li>
+                        honestidade;
+                    </li>
+                    <li>
+                        Adaptabilidade.
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-content w3-justify w3-text-grey w3-padding-34" id="crencas">
+                <h2 class="w3-text-light-grey">Crenças</h2>
+                <!-- <hr style="width:200px" class="w3-opacity"> -->
+                <!-- INCLUI -->
+                <hr style="width:230px " class="w3-opacity bg-white">
+                <p>Tratar todas as pessoas imparcialmente é um dos meus princípios. Aprecio a beleza, excelência e
+                    bom desempenho em todos os domínios da vida. Sou honesta, não apenas por falar a verdade mas por
+                    viver de forma autêntica. Valorizo as relações em que o cuidar e compartilhar são recíprocos.
+                </p>
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+        <div class="w3-content w3-justify w3-text-grey w3-padding-16" id="crencas"></div>
+
+        <div class="w3-row w3-center w3-padding-64 w3-section w3-light-grey">
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">Minhas</span>
+                <hr style="width:200px w3-center" class="w3-opacity bg-black ">
+                <span class="w3-xlarge">Metas</span>
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">Curto (6 meses)</span><br><br>
+                Conquistar uma colocação <br> no mercado de tecnologia.
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">Médio (2 anos e meio)</span><br><br>
+                Ingressar no curso de Análise e<br>Desenvolvimento de Sistemas.
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">Longo (6 anos)</span><br><br>
+                Ter acumulado conhecimentos necessários para<br>iniciar treinamento para me tornar product owner.
+            </div>
+        </div>
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+            <!-- Testimonials -->
+            <h3 class="w3-text-light-grey">Recomendações</h3>
+            <hr style="width:230px" class="w3-opacity bg-white">
+            <img src="/img/jona.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right w3-grayscale-max"
+                style="width:80px">
+            <p><span class="w3-large w3-margin-right">Jonathan Ferreira.</span> Estagiário | Tribunal Regional
+                Federal - 2ª Região.</p>
+            <p>"Rivania é, além de uma pessoa incrível, um exemplo de profissional. Flexível, determinada,
+                responsável e extremamente criativa são alguns dos inúmeros adjetivos que poderiam descrevê-la;
+                vislumbra soluções onde outros não visualizaram, além de aplicar de forma exemplar os conceitos de
+                proatividade e gerenciamento de risco. Sem dúvidas, uma das melhores pessoas com quem tive o prazer
+                de compartilhar o ambiente de trabalho."</p>
+
+            <br>
+            <img src="/img/rena.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right w3-grayscale-max"
+                style="width:80px">
+            <p><span class="w3-large w3-margin-right">Renata Itaborahi.</span> Contas a Pagar | Albacete Indústria e
+                Comércio de Equip. de Lazer ltda.</p>
+            <p>"No tempo que trabalhamos juntas sempre foi muito prazeroso, aprendi muito com ela, uma pessoa atenciosa
+                e sempre colocando a equipe em primeiro lugar. É uma pessoa extremamente inteligente, dinâmica e
+                perspicaz, sabe ser rígida nos momentos certos e também sabe valorizar os esforços dos seus colegas de
+                trabalho. É uma pessoa do qual gostaria de ter o privilégio de voltar a trabalhar junto."</p>
+        </div>
+        <!-- Contact Section -->
+        <div class="w3-content w3-justify w3-text-grey" id="contact">
+            <h2 class="w3-text-light-grey">Contato</h2>
+            <hr style="width:230px" class="w3-opacity bg-white">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Teresópolis, RJ
+                </p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tel.: (21) 99320-4746
+                </p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
+                    rivaniagomes@gmail.com</p>
+            </div><br>
+            <!--  <p>Vamos manter contato. Me mande uma mensagem:</p>
+
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Assunto" required name="Subject">
+                    </p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Menssagem" required
+                            name="Message">
+                    </p>
+                    <p>
+                        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                            <i class="fa fa-paper-plane"></i> ENVIAR MENSAGEM
+                        </button>
+                    </p> -->
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge link">
+            <a href="https://www.instagram.com/rivaniagomes/" target="_blank" class="w3-hover-text-white"><i
+                    class="fa fa-instagram w3-hover-opacity w3-grayscale-max"></i></a>
+            <a href="https://www.linkedin.com/in/rivaniagomes/" target="_blank" class="w3-hover-text-white"><i
+                    class="fa fa-linkedin w3-hover-opacity w3-grayscale-max"></i></a>
+            <a href="https://github.com/RivaniaGomes" target="_blank" class="w3-hover-text-white"><i
+                    class="fa fa-github w3-hover-opacity w3-grayscale-max"></i></a>
+
+            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                    class="w3-hover-text-grey w3-grayscale-max">w3.css</a></p>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+</body>
+
+</html>
+
+
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/base.js"></script>
+</body>
+
+</html>
