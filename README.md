@@ -1,3 +1,8 @@
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
+
 # CurriculoComportamental
 
-https://rivaniagomes.netlify.app/
+Caso querira conhecer um pouco mais sobre mim acesse https://rivaniagomes.netlify.app/
+
